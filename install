@@ -1,0 +1,7 @@
+#!/bin/bash
+
+DIF_FILE="`pwd`"
+
+sudo apt install fonts-powerline
+echo "source ${DIF_FILE}/run.sh" >> ~/.bashrc
+eval "source ~/.bashrc"
